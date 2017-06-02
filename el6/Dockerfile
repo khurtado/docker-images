@@ -9,25 +9,36 @@ RUN yum -y install http://repo.grid.iu.edu/osg/3.3/osg-3.3-el6-release-latest.rp
 
 # HTCondor build dependencies   
 RUN yum -y install \
+           bison \
            bison-devel \
            boost-devel \
+           byacc \
            c-ares \
            c-ares-devel \
            cmake \
            expat-devel \
+           flex \
+           gcc-c++ \
            glibc-static \
            krb5-devel \
            latex2html \
            libcgroup-devel \
            libcurl-devel \
+           libtool \
            libtool-ltdl-devel \
+           libuuid-devel \
            libvirt-devel \
+           libxml2-devel \
            libXScrnSaver-devel \
            nss-devel \
            openldap-devel \
            openssl-devel \
            pam-devel \
+           pcre \
            pcre-devel \
+           perl-Archive-Tar \
+           perl-XML-Parser \
+           python-devel \
            transfig \
     
 # osg
