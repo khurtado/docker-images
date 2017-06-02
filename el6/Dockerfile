@@ -19,6 +19,7 @@ RUN yum -y install \
            expat-devel \
            flex \
            gcc-c++ \
+           git \
            glibc-static \
            krb5-devel \
            latex2html \
@@ -39,6 +40,7 @@ RUN yum -y install \
            perl-Archive-Tar \
            perl-XML-Parser \
            python-devel \
+           rpm-build \
            transfig \
     
 # osg
