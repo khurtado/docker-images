@@ -19,6 +19,7 @@ RUN yum -y install \
            expat-devel \
            flex \
            gcc-c++ \
+           gcc-gfortran \
            git \
            glibc-static \
            krb5-devel \
