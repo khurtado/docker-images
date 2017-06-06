@@ -45,6 +45,7 @@ RUN yum -y install \
            python-devel \
            rpm-build \
            systemd-devel \
+           systemtap-sdt-devel \
            transfig \
     
 # osg
