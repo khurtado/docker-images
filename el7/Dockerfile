@@ -27,6 +27,7 @@ RUN yum -y install \
            latex2html \
            libcgroup-devel \
            libcurl-devel \
+           libstdc++-static \
            libtool \
            libtool-ltdl-devel \
            libuuid-devel \
