@@ -9,6 +9,7 @@ RUN yum -y install http://repo.grid.iu.edu/osg/3.3/osg-3.3-el7-release-latest.rp
 
 # HTCondor build dependencies   
 RUN yum -y install \
+           bind-utils \
            bison \
            bison-devel \
            boost-devel \
@@ -40,8 +41,10 @@ RUN yum -y install \
            pcre-devel \
            perl-Archive-Tar \
            perl-XML-Parser \
+           perl-Digest-MD5 \
            python-devel \
            rpm-build \
+           systemd-devel \
            transfig \
     
 # osg
